@@ -1,0 +1,18 @@
+.card-img-top {
+  width: auto;
+  border-radius: 8px;
+  margin: auto;
+  display: flex;
+
+  box-shadow: 5px 5px 10px #dbdbdbff;
+}
+
+.card-img-top:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+  box-shadow: 5px 5px 10px #dbdbdbff;
+}
+
+.card-title {
+  border-bottom: 2px solid #eee;
+}

@@ -1,92 +1,55 @@
+import Lucy from "../img/team/1-lucy.jpg";
+import Kakania from "../img/team/2-kakania.jpg";
+import Vertin from "../img/team/3-vertin.jpg";
+
 function Team() {
   return (
     <div className="container">
-      <h1>Our Team</h1>
-      <p>Meet the people behind our success.</p>
+      <div className="text-center my-4">
+        <h3>Our Team</h3>
+        <p>Meet the people behind our success.</p>
+      </div>
       <div className="row">
-        <div className="col-lg-4">
-          <svg
-            aria-label="Placeholder"
+        {/* 1st Person */}
+        <div className="col-lg-4 text-center">
+          <img
+            src={Lucy}
             className="bd-placeholder-img rounded-circle"
+            alt="Lucy"
             height="140"
-            preserveAspectRatio="xMidYMid slice"
-            role="img"
             width="140"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"
-            ></rect>
-          </svg>
-          <h2 className="fw-normal">Heading</h2>
-          <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
-          </p>
-          <p>
-            <a className="btn btn-secondary" href="#">
-              View details »
-            </a>
-          </p>
+            style={{ objectFit: "cover" }}
+          />
+          <h3 className="mt-3 mb-1">Lucy</h3>
+          <p>Founder of Bookstore</p>
         </div>
-        <div className="col-lg-4">
-          <svg
-            aria-label="Placeholder"
+
+        {/* 2nd Person */}
+        <div className="col-lg-4 text-center">
+          <img
+            src={Kakania}
             className="bd-placeholder-img rounded-circle"
+            alt="Vertin"
             height="140"
-            preserveAspectRatio="xMidYMid slice"
-            role="img"
             width="140"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"
-            ></rect>
-          </svg>
-          <h2 className="fw-normal">Heading</h2>
-          <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
-          </p>
-          <p>
-            <a className="btn btn-secondary" href="#">
-              View details »
-            </a>
-          </p>
+            style={{ objectFit: "cover" }}
+          />
+          <h3 className="mt-3 mb-1">Kakania</h3>
+          <p>Co-Founder of Bookstore</p>
         </div>
-        <div className="col-lg-4">
-          <svg
-            aria-label="Placeholder"
+
+        {/* 3rd Person */}
+        <div className="col-lg-4 text-center">
+          <img
+            src={Vertin}
             className="bd-placeholder-img rounded-circle"
+            alt="Vertin"
             height="140"
-            preserveAspectRatio="xMidYMid slice"
-            role="img"
             width="140"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>Placeholder</title>
-            <rect
-              width="100%"
-              height="100%"
-              fill="var(--bs-secondary-color)"
-            ></rect>
-          </svg>
-          <h2 className="fw-normal">Heading</h2>
-          <p>
-            And lastly this, the third column of representative placeholder
-            content.
-          </p>
-          <p>
-            <a className="btn btn-secondary" href="#">
-              View details »
-            </a>
-          </p>
+            style={{ objectFit: "cover" }}
+          />
+          <h3 className="mt-3 mb-1">Vertin</h3>
+          <p>Database Administrator</p>
         </div>
       </div>
     </div>
