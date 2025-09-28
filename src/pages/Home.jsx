@@ -1,5 +1,5 @@
 import React from "react";
-import bookHero from "../img/novel-1.jpg";
+import bookHero from "../img/book-hero.jpg";
 import Book1 from "../img/book-home/book-1.jpg";
 import Book2 from "../img/book-home/book-2.jpg";
 import Book3 from "../img/book-home/book-3.jpg";
