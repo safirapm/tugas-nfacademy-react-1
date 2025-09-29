@@ -3,7 +3,7 @@ import React from "react";
 function Contact() {
   return (
     <>
-      <div className="container">
+      <div className="container min-vh-100 py-5">
         <h3>Contact Us</h3>
         <div className="mb-3">
           <label htmlFor="exampleFormControlInput1" className="form-label">

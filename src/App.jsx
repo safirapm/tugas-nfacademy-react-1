@@ -3,13 +3,13 @@ import Home from "./pages/Home";
 import Book from "./pages/Book";
 import Team from "./pages/Team";
 import Contact from "./pages/Contact";
-import Navbar from "./components/navbar";
-import Footer from "./components/footer";
+import Header from "./components/shared/Header/header";
+import Footer from "./components/shared/Footer/footer";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/book" element={<Book />} />
